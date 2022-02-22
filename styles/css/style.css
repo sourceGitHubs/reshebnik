@@ -1,0 +1,86 @@
+body {
+  margin: 0 0 0 10px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  background-color: #70ec8b;
+  text-align: center;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.button.hidden_button {
+  position: absolute;
+  opacity: 0;
+}
+
+.answer {
+  display: none;
+}
+
+.answer.active {
+  display: block;
+}
+
+table {
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+tr {
+  text-indent: 0;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+}
+
+td {
+  border: 1px solid rgba(0, 0, 0, 0.56);
+  text-align: center;
+  padding: 4px;
+  outline: none;
+}
+
+th {
+  border: 1px solid rgba(0, 0, 0, 0.56);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  padding: 10px 0px;
+}
+
+.number {
+  text-align: center;
+  height: 20px;
+  width: 30px;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.input input {
+  margin-left: 10px;
+}
